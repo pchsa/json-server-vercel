@@ -1,9 +1,57 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "notes": [
+    {
+      "id": 1,
+      "title": "Meeting Agenda",
+      "description": "Prepare for the team meeting at 3 PM. Discuss project updates, upcoming tasks, and address any blockers.",
+      "tags": ["work", "meeting", "project"],
+      "color": "#ffcc00",
+      "pinned": true
+    },
+    {
+      "id": 2,
+      "title": "Grocery List",
+      "description": "Buy milk, eggs, bread, and fruits. Don't forget to check for any ongoing discounts at the grocery store.",
+      "tags": ["personal", "shopping"],
+      "color": "#66cc99",
+      "pinned": false
+    },
+    {
+      "id": 3,
+      "title": "Book Recommendations",
+      "description": "Explore new books: 'The Silent Stars Go By' and 'The Night Circus'. Check reviews before making a purchase.",
+      "tags": ["reading", "books"],
+      "color": "#ff6666",
+      "pinned": false
+    },
+    {
+      "id": 4,
+      "title": "Fitness Goals",
+      "description": "Complete a 30-minute workout routine today. Focus on cardio and core exercises.",
+      "tags": ["health", "fitness"],
+      "color": "#3399ff",
+      "pinned": true
+    },
+    {
+      "id": 5,
+      "title": "Travel Plans",
+      "description": "Research potential vacation destinations for the summer. Consider budget, weather, and local attractions.",
+      "tags": ["travel", "vacation"],
+      "color": "#ff9966",
+      "pinned": false
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "tags": [
+    "work",
+    "meeting",
+    "project",
+    "personal",
+    "shopping",
+    "reading",
+    "books",
+    "health",
+    "fitness",
+    "travel",
+    "vacation"
+  ]
 }
